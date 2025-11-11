@@ -42,7 +42,7 @@ while player_score < 3 and ia_score < 3:
     # Lógica de vitória
     if player == "Pedra" and ia == "Tesoura" or player == "Tesoura" and ia == "Papel" or player == "Papel" and ia == "Pedra":
         print("Você venceu esta rodada!")
-        player_score += 1  # +1 ponto (mude para +=3 se quiser)
+        player_score += 1  # +1 ponto
     elif ia == "Pedra" and player == "Tesoura" or ia == "Tesoura" and player == "Papel" or ia == "Papel" and player == "Pedra":
         print("Você perdeu esta rodada!")
         ia_score += 1
